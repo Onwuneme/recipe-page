@@ -1,0 +1,97 @@
+:root{
+     --White: hsl(0, 0%, 100%);
+     --Stone150:  hsl(30, 18%, 87%);
+     --Stone600:  hsl(30, 10%, 34%);
+     --Stone900: hsl(24, 5%, 18%);
+     --Brown800: hsl(14, 45%, 36%);
+     --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+
+}
+@font-face{
+    font-family: outfit-black ;
+    src: url(assets/fonts/outfit/static/Outfit-Black.ttf);
+}
+@font-face{
+    font-family: outfit-bold ;
+    src: url(assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+@font-face{
+    font-family: outfit-medium;
+    src: url(assets/fonts/outfit/static/Outfit-Medium.ttf);
+}
+@font-face{
+    font-family: outfit-regular ;
+    src: url(assets/fonts/outfit/static/Outfit-Regular.ttf)
+
+}
+body{
+    margin: 0px;
+}    
+main{
+    background-color: var(--White);
+    img{
+        max-width: 400px;
+    }
+}
+#Simple{
+    margin: 40px;
+    font-family: outfit-regular;
+    line-height: 25px;
+    color: var(--Stone600)
+}
+h2{
+    font-family: none;
+    color: var(--Brown800);
+    font-size: 30px;
+}
+#box{
+    background-color: var(--Rose50);
+    padding: 10px;
+    border-radius: 10px;
+}
+h3{
+    color: var(--Rose800) ;
+}
+h1{
+    font-family: none;
+    color: var(--Stone900);
+    font-size: 35px;
+    line-height: 40px;
+}
+table{
+    width: 100%;
+}
+tr{
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid var(--Stone900);
+}
+td{
+    width: 50%;
+}
+.g{
+    color: var(--Brown800);
+}
+
+@media screen and (min-width:760px){
+    body{
+        background-color: var(--Stone150);
+    }
+   main{
+    margin: auto;
+    max-width:480px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 20px;
+
+    img{
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+   
+
+}
+}
