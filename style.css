@@ -32,7 +32,7 @@ body{
 main{
     background-color: var(--White);
     img{
-        max-width: 400px;
+        width: 100%;
     }
 }
 #Simple{
@@ -59,6 +59,9 @@ h1{
     color: var(--Stone900);
     font-size: 35px;
     line-height: 40px;
+}
+li::marker{
+    color: var(--Brown800);
 }
 table{
     width: 100%;
